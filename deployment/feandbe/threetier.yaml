@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "mohanraz81/threetierbe"
+          image: "knowdocker/threetierbe"
           ports:
             - name: http
               containerPort: 80
@@ -79,7 +79,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "mohanraz81/threetierfe"
+        image: "knowdocker/threetierfe"
         ports:
           - name: http
             containerPort: 80
